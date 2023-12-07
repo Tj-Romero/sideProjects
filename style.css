@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border: 35px solid black;
+}
+
+.text-content {
+    position: absolute;
+    top: 43%;
+    left: 0;
+    width: 100%;
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+    text-align: left;
+    font-size: 20px;
+}
+
+.name-sub-container {
+    background-color: rgba(119, 136, 153, 0.5);
+    padding: 20px;
+    border-radius: 0px;
+    display: fixed;
+}
+
+h1,
+sub {
+    position: relative;
+    top: 35%;
+    left: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    background-color: rgb(55, 55, 55);
+    width: 360px;
+    text-align: center;
+    color: white;
+
+}
+
+.image-container {
+    position: relative;
+    border-radius: 10px;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    border: 35px 35px 35px solid black;
+    border-radius: 30px;
+}
+
+.cost-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 350px;
+}
+
+.logos {
+    position: absolute;
+    top: 48%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+}
+
+.logos img {
+    width: 200px;
+    height: 200px;
+    margin-right: 5px;
+}
+
+.loreLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 55, 55);
+    width: 100%;
+    padding: 3px 0;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.loreLogo img {
+    margin-left: 5px;
+    width: 70px;
+    height: auto;
+}
+
+.loreLogo span {
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    background-color: tan;
+    width: 100%;
+    height: 360px;
+    padding: 0;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 2%;
+}
+
+.image-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+    padding: 5px;
+    position: absolute;
+    right: 0%;
+    width: 60px;
+    height: 250px;
+    background-color: rgba(255, 217, 166, 0.728);
+}
+
+.image-area img {
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.text-area {
+    flex: 2;
+    padding: 10px;
+}
+
+.rareLogo img {
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+}
+
+.rareLogo span {
+    color: antiquewhite;
+    position: relative;
+    left: 0;
+    bottom: 0%;
+}
